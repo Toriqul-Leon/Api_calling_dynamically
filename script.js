@@ -15,6 +15,6 @@ const showData = (countries) => {
     <p>${country.capital}</p>
 
     `;
-    
+    div.classList.add("country");
   }
 };

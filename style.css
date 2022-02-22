@@ -1,0 +1,22 @@
+.country {
+  border: 2px solid rebeccapurple;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#countries {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+h2 {
+  color: cadetblue;
+}
+p {
+  color: brown;
+}
