@@ -5,6 +5,17 @@
   border-radius: 10px;
 }
 
+button {
+  color: green;
+  background-color: beige;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+}
+button:hover {
+  background-color: aquamarine;
+  color: black;
+}
 #countries {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
